@@ -1,0 +1,7 @@
+var $ = require('jquery');
+var mymodule = require('./mymodule.es5');
+
+$(function () {
+  console.log('hello, world. this is index.js');
+  mymodule.test();
+});
